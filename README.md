@@ -2,7 +2,9 @@
 
 Evidence-first Composio Product Ops take-home, researched 23 November 2026.
 
-Open `index.html` for the single-page case study: 100-app matrix, patterns, pipeline, source links and honest verification results.
+Live case study: https://mangod12.github.io/composio-app-access-audit/
+
+Open `index.html` locally for the single-page case study: 100-app matrix, patterns, pipeline, source links and honest verification results.
 
 ## Run the research pipeline
 
@@ -21,7 +23,7 @@ Python 3.10+ required. On Windows, activate with `.venv\Scripts\activate`.
 
 `demo.py` actually collects current public documentation for at most ten chosen apps, with two workers, into an isolated `runs/` folder. It produces unverified evidence candidates, not automatic correctness verdicts. No app credentials, paid API or model account is needed. The full collector and HTML builder are in `src/`.
 
-For the recorded review data, see `data/assessments.json`, `data/source-ledger.json`, `data/independent-review/`, `data/reviewed-claim-support.json` and `evidence/` (full evidence archive) in the full evidence archive. Frozen initial extraction and both review inputs/results are preserved.
+The bootstrap contains runnable scripts, canonical assessments and both independent review records. The full submission ZIP additionally contains cached source snapshots, the ledger, support spans and tests. Run the full rebuild and tests from that extracted ZIP, not from the smaller bootstrap. Frozen initial extraction and both review results are preserved.
 
 ## Verification, not invented accuracy
 
